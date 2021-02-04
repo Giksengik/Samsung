@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/xyAngle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Угол XY:"
+        android:textSize="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/xyValue"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:id="@+id/xyValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/xzAngle"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/xzAngle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Угол XZ:   "
+        android:textSize="25dp"
+        android:layout_below="@+id/xyAngle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/xzValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="25dp"
+        android:layout_alignBaseline="@+id/xzAngle"
+        android:layout_alignBottom="@+id/xzAngle"
+        android:layout_toRightOf="@+id/zyAngle"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/zyAngle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Угол ZY:   "
+        android:textSize="25dp"
+        android:layout_alignBaseline="@+id/zyValue"
+        android:layout_alignBottom="@+id/zyValue"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/zyValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="0"
+        android:layout_below="@+id/xzValue"
+        android:layout_toRightOf="@+id/zyAngle"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
