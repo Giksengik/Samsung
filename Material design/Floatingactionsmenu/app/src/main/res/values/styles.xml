@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    </style>
+    <style name="menu_label_style">
+        <item name="android:background">
+            @drawable/fab_bg_normal
+        </item>
+        <item name="android:textColor">#fafafa</item>
+    </style>
+</resources>
